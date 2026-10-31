@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="120" y1="0" x2="860" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102B50"/>
+      <stop offset=".58" stop-color="#0D4770"/>
+      <stop offset="1" stop-color="#0B86A5"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#79DDF5" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#3B82F6" stop-opacity=".08"/>
+    </linearGradient>
+    <linearGradient id="road" x1="470" y1="430" x2="490" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#15375B"/>
+      <stop offset="1" stop-color="#07152E"/>
+    </linearGradient>
+    <pattern id="windows" width="38" height="42" patternUnits="userSpaceOnUse">
+      <rect x="8" y="9" width="11" height="16" rx="2" fill="#8CE9FB" fill-opacity=".72"/>
+      <rect x="24" y="9" width="7" height="16" rx="2" fill="#C5F5FF" fill-opacity=".35"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="13" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="960" height="720" fill="url(#sky)"/>
+  <circle cx="752" cy="142" r="73" fill="#8CE9FB" fill-opacity=".14"/>
+  <circle cx="752" cy="142" r="43" fill="#BFF8FF" fill-opacity=".76" filter="url(#glow)"/>
+  <path d="M0 323C138 284 231 307 357 288C509 265 617 299 960 232V720H0V323Z" fill="#0B2846"/>
+  <g opacity=".7">
+    <path d="M0 357h75v-98h70v132H0v-34Z" fill="#153B60"/>
+    <path d="M93 329h42v-42h45v104H93v-62Z" fill="#19476C"/>
+    <path d="M786 301h57v-84h76v134h41v-51h42v131H786V301Z" fill="#153B60"/>
+    <path d="M689 339h61v-96h71v151h-132v-55Z" fill="#19476C"/>
+  </g>
+  <g>
+    <path d="M144 429V238l95-43 95 43v191H144Z" fill="url(#glass)" stroke="#9DEEFF" stroke-opacity=".48"/>
+    <path d="M167 253h144v165H167V253Z" fill="url(#windows)" opacity=".74"/>
+    <path d="M182 237v-46l56-29 57 29v46" fill="#1C6389" stroke="#9DEEFF" stroke-opacity=".55"/>
+    <path d="M344 429V149l91-47 91 47v280H344Z" fill="url(#glass)" stroke="#A8F0FF" stroke-opacity=".58"/>
+    <path d="M365 165h141v242H365V165Z" fill="url(#windows)" opacity=".84"/>
+    <path d="M383 149v-47l52-29 53 29v47" fill="#2B85A4" stroke="#A8F0FF" stroke-opacity=".65"/>
+    <path d="M546 429V229l82-37 83 37v200H546Z" fill="url(#glass)" stroke="#A8F0FF" stroke-opacity=".55"/>
+    <path d="M565 244h127v164H565V244Z" fill="url(#windows)" opacity=".82"/>
+    <path d="M711 429V292l68-31 70 31v137H711Z" fill="url(#glass)" stroke="#9DEEFF" stroke-opacity=".5"/>
+    <path d="M729 306h101v103H729V306Z" fill="url(#windows)" opacity=".78"/>
+  </g>
+  <path d="M0 429h960v291H0V429Z" fill="#102B50"/>
+  <path d="M0 475c194-40 331-23 474 12 180 44 311 45 486 3v230H0V475Z" fill="#12395D"/>
+  <path d="M391 720 452 449h61l61 271H391Z" fill="url(#road)"/>
+  <path d="m477 500-3 39h16l-4-39h-9Zm-9 85-5 52h31l-5-52h-21Zm-12 103-2 32h47l-3-32h-42Z" fill="#99EAF9" fill-opacity=".82"/>
+  <path d="M0 578c113-75 230-92 384-93M960 576c-108-71-217-89-383-91" stroke="#38BDF8" stroke-opacity=".7" stroke-width="3"/>
+  <path d="M67 537h225M671 535h217M0 612h346m270 0h344" stroke="#38BDF8" stroke-opacity=".28" stroke-width="2"/>
+  <g fill="#B9F5FF">
+    <circle cx="105" cy="536" r="4"/><circle cx="205" cy="523" r="4"/><circle cx="751" cy="529" r="4"/><circle cx="854" cy="548" r="4"/>
+    <circle cx="118" cy="610" r="3"/><circle cx="814" cy="612" r="3"/><circle cx="275" cy="565" r="3"/><circle cx="685" cy="562" r="3"/>
+  </g>
+  <g fill="#75DDF4" fill-opacity=".8">
+    <circle cx="82" cy="96" r="2"/><circle cx="184" cy="121" r="3"/><circle cx="293" cy="62" r="2"/><circle cx="617" cy="72" r="2"/>
+    <circle cx="868" cy="241" r="3"/><circle cx="91" cy="211" r="2"/><circle cx="645" cy="157" r="2"/>
+  </g>
+</svg>

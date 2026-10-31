@@ -1,0 +1,25 @@
+# Local configuration and credentials
+/config/database.php
+/.env
+/.env.*
+
+# User-uploaded files and local database exports
+/uploads/*
+!/uploads/.htaccess
+!/uploads/complaints/
+!/uploads/complaints/.gitkeep
+*.sql.gz
+*.dump
+
+# Kaggle downloads and credentials
+/kaggle.json
+/kaggle/
+**/kaggle.json
+
+# Python and editor caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.vscode/
+.idea/
